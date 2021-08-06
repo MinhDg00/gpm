@@ -1,9 +1,10 @@
 SET UP:
 ----------------------------------------------------------------------------------------------------------------------
 1.Install numpy 
-
+```shell
 $pip install numpy
 $pip3 install numpy
+``` 
 
 FILE DESCRIPTION
 ----------------------------------------------------------------------------------------------------------------------
@@ -23,10 +24,12 @@ INSTRUCTIONS:
 2. Launch Command Prompt/Terminal and navigate to the  folder.
 
 3. Input the following command:
-
+```shell
    $python3 main.py uai_file task_id train_file test_file 
-
+```
 4. The program will ask user to input the w, N and type of proposal distribution
 
-EXAMPLE: python3 main.py 1.uai 1 train-f-1.txt test.txt
-
+EXAMPLE: 
+```shell
+python3 main.py 1.uai 1 train-f-1.txt test.txt
+```
